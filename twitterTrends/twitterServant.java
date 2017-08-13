@@ -36,10 +36,10 @@ public class twitterServant extends UnicastRemoteObject implements twitterData{
 			//Setting up Twitter configuration and passing Authentication Keys and Tokens.
 			ConfigurationBuilder cb = new ConfigurationBuilder();
 	        cb.setDebugEnabled(true)
-	                .setOAuthConsumerKey("7X6ksR8FMxh2NKna30LhBe2m3")
-	                .setOAuthConsumerSecret("ZKhDXpK69rGCGp6iOtAmmAXC8APrMCjzCfUoRTHxY3cvKRBnjE")
-	                .setOAuthAccessToken("3041766346-BaoobdcNvInbODpFr5D9H9d4u7wO0pCKenKvNoq")
-	                .setOAuthAccessTokenSecret("NWKhjAOzdaDHAViUG6p3oULNnA9FfnxYp6FAVMCbSswe7");
+	                .setOAuthConsumerKey("")
+	                .setOAuthConsumerSecret("")
+	                .setOAuthAccessToken("")
+	                .setOAuthAccessTokenSecret("");
 			
 	        //Creating the twitter object to make API calls.
 	        TwitterFactory tf = new TwitterFactory(cb.build());
